@@ -4,7 +4,11 @@ __pycache__/
 *.pt
 .env
 .DS_Store
-data/
+data/*.csv
+data/*.zip
+data/*.tar
+data/*.h5
+data/raw/
 runs/
 wandb/
 *.egg-info/
