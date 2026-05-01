@@ -5,17 +5,16 @@ from tqdm import tqdm
 
 class Trainer:
     """
-    A clean, reusable training loop that demonstrates correct PyTorch practice.
+    A clean, reusable training loo.
 
     Key concepts:
       - model.train() before training loop: enables Dropout + BatchNorm
-        training behaviour (BatchNorm uses batch statistics, Dropout active)
+        training behaviour (BatchNorm uses batch statistics, Dropout is active)
       - model.eval() before validation loop: switches BatchNorm to use
         running statistics accumulated during training. Disables Dropout.
         FORGETTING THIS IS THE #1 MOST COMMON PYTORCH BUG.
       - torch.no_grad() during validation: disables gradient computation.
         Saves memory and speeds up inference.
-        NOTE: this is DIFFERENT from model.eval(). You need BOTH.
       - optimizer.zero_grad() before backward: clears gradients from
         previous step. Forgetting this accumulates gradients incorrectly.
       - gradient clipping before optimizer.step(): prevents exploding
