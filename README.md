@@ -13,7 +13,7 @@ Most PyTorch tutorials show the working "happy" path. This repo shows the issues
 ---
 
 ## Structure
-
+```
 pytorch-fundamentals/
 ├── data/
 │   └── dataset.py              # Reusable ImageClassificationDataset with train/val transforms
@@ -24,7 +24,7 @@ pytorch-fundamentals/
     ├── trainer.py              # Training loop with correct train/eval/no_grad pattern
     ├── losses.py               # DiceLoss, WeightedCE, CombinedLoss with graph verification
     └── nan_debug.py            # NaNGuard and checks for the three most common NaN causes
-
+```
 ---
 
 ## Key concepts demonstrated
