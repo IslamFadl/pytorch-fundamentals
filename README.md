@@ -129,7 +129,7 @@ Tested on Python 3.11, PyTorch 2.x, MacBook Air M-series (MPS backend) and CUDA.
 
 Islam Fadl
 
-[GitHub](https://github.com/IslamFadl) · [LinkedIn](https://www.linkedin.com/in/islamfadl/) · [Google Scholar](https://scholar.google.com/citations?user=YOURID)
+[GitHub](https://github.com/IslamFadl) · [LinkedIn](https://www.linkedin.com/in/islamfadl/) · [Google Scholar](https://scholar.google.com/citations?user=nzKZBpoAAAAJ&hl=en&authuser=3)
 
 ---
 
