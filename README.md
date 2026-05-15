@@ -125,14 +125,6 @@ Tested on Python 3.11, PyTorch 2.x, MacBook Air M-series (MPS backend) and CUDA.
 
 ---
 
-## Author
-
-Islam Fadl
-
-[GitHub](https://github.com/IslamFadl) · [LinkedIn](https://www.linkedin.com/in/islamfadl/) · [Google Scholar](https://scholar.google.com/citations?user=nzKZBpoAAAAJ&hl=en&authuser=3)
-
----
-
 ## License
 
-MIT — use freely.
+MIT — use freely, and please let me know if you found any issues while running the scripts on your machine.
