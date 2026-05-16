@@ -8,7 +8,7 @@ This repo is part of a larger portfolio of robotics and CV projects — see [my 
 
 ## Why this exists
 
-Most PyTorch tutorials show the working "happy" path. This repo shows the issues when you modify or change losses, class distibution, hyperparameters, and more. it also shows how to keep the GPU fed, how to debug NaN losses at step 1 instead of step 50, how to fine-tune large pretrained models on small datasets without destroying their representations, and how to write a custom loss that doesn't break the computational graph.
+Most PyTorch tutorials show the working "happy" path. This repo shows the issues when you modify or change losses, class distibution, hyperparameters and more... it also shows how to keep the GPU fed, how to debug NaN losses at step 1 instead of step 50, how to fine-tune large pretrained models on small datasets without destroying their representations, and how to write a custom loss that doesn't break the computational graph.
 
 ---
 
