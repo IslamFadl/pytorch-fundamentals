@@ -211,6 +211,7 @@ if __name__ == "__main__":
     except ValueError as e:
         print(f"  ✓ Caught: {str(e).splitlines()[0]}\n")
 
+    # review case 2 to ensure it triggers the right error message about model outputs, not inputs
     # CASE 2: NaN in model output
     print("CASE 2: NaN in model output")
     try:
